@@ -1,0 +1,10 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "scripts": {},
+  "fileVersions": {
+    "index.html": "1.0.0",
+    "styles/main.css": "1.0.0",
+    "scripts/main.js": "1.0.0"
+  }
+}
