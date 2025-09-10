@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>resume-website</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <body class="gradient-bg">
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+            <div class="container-fluid">
+                <span class="navbar-brand">
+                    <img src="images/home/ms_logo.svg" alt="home-logo">
+                </span>
+                <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link d-inline-block" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link d-inline-block" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Project 1</a></li>
+                            <li><a class="dropdown-item" href="#">Project 2</a></li>
+                            <li><a class="dropdown-item" href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link d-inline-block" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link d-inline-block" href="#">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!--Cause/Pillars/Villians-->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
 </html>
