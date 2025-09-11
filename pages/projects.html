@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-inline-block"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/index.html#my-cause"
+                      >My Cause</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/index.html#my-pillars"
+                      >Pillars</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/index.html#villains"
+                      >Villains</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item btn-group">
+                <a
+                  role="button"
+                  class="nav-link active d-inline-block"
+                  aria-current="page"
+                  href="#"
+                  >Projects</a
+                >
+                <a
+                  role="button"
+                  class="nav-link dropdown-toggle d-inline-block"
+                  data-bs-toggle="dropdown"
+                >
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#project-1">Project 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#project-2">Project 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#project-3">Project 3</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#this-website"
+                      >This Website</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <div class="container text-center">
+        <span class="anchor" id="project-1"></span>
+        <div class="mt-5">
+          <h2 class="message-title">Project 1</h2>
+          <p class="message-text">Project 1 description</p>
+        </div>
+        <hr class="divider" />
+        <!--Project 2-->
+        <span class="anchor" id="project-2"></span>
+        <div>
+          <h2 class="message-title">Project 2</h2>
+          <p class="message-text">Project 2 description</p>
+        </div>
+        <hr class="divider" />
+        <!--Project 3-->
+        <span class="anchor" id="project-3"></span>
+        <div>
+          <h2 class="message-title">Project 3</h2>
+          <p class="message-text">Project 3 description</p>
+        </div>
+        <hr class="divider" />
+        <!--This Website-->
+        <span class="anchor" id="this-website"></span>
+        <div>
+          <h2 class="message-title">This Website</h2>
+          <p class="message-text">This Website description</p>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

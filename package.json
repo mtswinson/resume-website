@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {},
   "fileVersions": {
-    "index.html": "1.0.0"
+    "index.html": "1.0.0",
+    "pages/projects.html": "1.0.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
