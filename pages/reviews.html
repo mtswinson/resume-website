@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown"> About </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#my-cause">My Cause</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#my-pillars">Pillars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#villains">Villains</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item btn-group">
+                <a role="button" class="nav-link d-inline-block" href="projects.html">Projects</a>
+                <a role="button" class="nav-link dropdown-toggle d-inline-block" data-bs-toggle="dropdown">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="projects.html#project-1">Project 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="projects.html#project-2">Project 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="projects.html#project-3">Project 3</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="projects.html#this-website">This Website</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active d-inline-block" aria-current="page" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Reviews Section -->
+      <div class="container text-center">
+        <div class="mt-5">
+          <h2 class="message-title">Project 1</h2>
+          <p class="message-text">Project 1 description</p>
+        </div>
+      </div>
+      <hr class="divider" />
+      <div class="container">
+        <!-- Row 1 -->
+        <span class="review-row-anchor" id="review-row-1"></span>
+        <div class="row card-message">
+          <!--Scrollable-->
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left-quote card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <div class="card-text">
+                  <p>Review goes here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-grin card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-smile card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 2 -->
+        <span class="review-row-anchor" id="review-row-2"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-sunglasses card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-award card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 3 -->
+        <span class="review-row-anchor" id="review-row-3"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-star card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-square card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 4 -->
+        <span class="review-row-anchor" id="review-row-4"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-hearts card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-circle card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-postage-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 5 -->
+        <span class="review-row-anchor" id="review-row-5"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-hand-thumbs-up card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 6 -->
+        <span class="review-row-anchor" id="review-row-6"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left-text card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 7 -->
+        <span class="review-row-anchor" id="review-row-7"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-star card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-sunglasses card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 8 -->
+        <span class="review-row-anchor" id="review-row-8"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left-quote card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-postage-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-square card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Row 9 -->
+        <span class="review-row-anchor" id="review-row-9"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-sunglasses card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-award card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-heart card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Row 10 -->
+        <span class="review-row-anchor" id="review-row-10"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-emoji-grin card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-hearts card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left-text card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+
+        <!-- Row 11 -->
+        <span class="review-row-anchor" id="review-row-11"></span>
+        <div class="row card-message">
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-hand-thumbs-up card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-chat-left card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card rounded-4">
+              <i class="bi bi-person-square card-icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Review</h5>
+                <p class="card-text">Review goes here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

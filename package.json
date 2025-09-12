@@ -4,7 +4,8 @@
   "scripts": {},
   "fileVersions": {
     "index.html": "1.0.0",
-    "pages/projects.html": "1.0.0"
+    "pages/projects.html": "1.0.0",
+    "pages/reviews.html": "1.0.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
