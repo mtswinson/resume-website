@@ -1,15 +1,15 @@
 html body {
   height: 100%;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
+/* Custom button */
 .btn-custom {
   background-color: #2ca3bf;
   color: white;
-  border: none;
 }
 
+/* Custom button on hover */
 .btn-custom:hover {
   background-color: #7ad7ec;
   color: white;
@@ -23,108 +23,154 @@ logo colors:
     dark-blue: #2A58A1
 */
 
+/* Page background */
 .gradient-bg {
   background: linear-gradient(to bottom right, #3c75a6, #1d3b57);
   min-height: 100vh;
 }
 
 /* -------------------------------------------------Navbar Styling------------------------------------------------- */
+
+/* Navbar logo */
 .navbar-brand img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* -------------------------------------------------Carousel Styling------------------------------------------------- */
-.carousel {
+
+/* Adds bottom margin to preview carousel */
+.preview {
   margin-bottom: 4rem;
 }
 
+/* Carousel contents */
+/* TODO: Adjust bottom if needed once populated */
 .carousel-caption {
   bottom: 3rem;
-  z-index: 10;
 }
 
+/* Preview carousel title */
+.preview h1 {
+  font-size: 1.75rem;
+}
+
+/* Preview carousel paragraphs */
+.preview p {
+  font-size: 0.75rem;
+}
+
+/* Carousel slide */
 .carousel-item {
   height: 20rem;
   background-color: rgba(119, 119, 119, 0.25);
 }
 
 /* -------------------------------------------------Card Styling------------------------------------------------- */
-.card-icon {
+
+/* Icon in about and review cards  */
+i {
   position: relative;
   padding-left: 5%;
   font-size: 5rem;
   color: #1d3b57;
 }
 
-.card-message .col-md-4 {
+/* Card item */
+.about .card {
   margin-bottom: 1.5rem;
-  text-align: left;
-}
-.card-message h5 {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  font-weight: 400;
-}
-.card-message .col-md-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  width: 18rem;
+  border-radius: 0.75rem;
 }
 
+/* Card content */
+.about .card-body {
+  margin: 0 0.75rem;
+}
+
+/* Card title */
+.about h5 {
+  font-weight: 400;
+}
+
+/* Title for "About" sections */
+.about .col-md-8 h2 {
+  color: white;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* "About" section text */
+.about .col-md-8 p {
+  color: white;
+}
+
+/* divider */
 .divider {
   margin: 5rem 0;
 }
 
-.card {
-  width: 18rem;
+/* ------------------------------------------------- Review Styling------------------------------------------------- */
+
+/* Review card and carousel margins */
+.review .col-md-4,
+.col-md-8 {
+  margin: 0.75rem 0;
 }
 
-/* -------------------------------------------------Excerpt Styling------------------------------------------------------------ */
+/* TODO: 
+    Adjust carousel-caption positioning if needed once populated
+    Add styling for header title/text
+*/
+
+/* Review card and carousel radius */
+.review .carousel-inner,
+.card {
+  border-radius: 1rem;
+}
+
+/* Carousel review text */
+/* Note: If font-size stays the same, maybe create a utility class */
+.review-text {
+  font-size: 0.75rem;
+  max-height: 9rem;
+  overflow-y: auto;
+  text-align: center;
+}
+
+/* Reviewer and date on review carousels and cards*/
+.reviewer-date {
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+/* -------------------------------------------------Anchor Styling------------------------------------------------------------ */
+
+/* TODO: Check anchors to see if they go to the right scroll location after text addition */
 
 /* places anchor at top of viewport */
 .anchor {
   display: block;
-  height: 115px;
-  margin-top: -115px;
+  height: 7.188rem;
+  margin-top: -7.188rem;
   visibility: hidden;
 }
 
 /* Centers viewport on the review row */
 .review-row-anchor {
   display: block;
-  height: 315px;
-  margin-top: -315px;
+  height: 19.688rem;
+  margin-top: -19.688rem;
   visibility: hidden;
-}
-
-.message-title {
-  color: white;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
-}
-.message-text {
-  color: white;
 }
 
 /* -------------------------------------------------Projects styling------------------------------------------------- */
 
+/* TODO: Add styling for projects once populated */
+
 /* -------------------------------------------------Media Queries------------------------------------------------- */
-
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .message-title {
-    font-size: 50px;
-  }
-}
-
+/* TODO: Double check after element population that nothing needs to be Changed/Added/Removed from here
 @media (min-width: 62em) {
-  .message-title {
-    margin-top: 0.5rem;
-  }
-}
+  
+} */

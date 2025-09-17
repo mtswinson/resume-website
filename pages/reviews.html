@@ -80,44 +80,154 @@
     </header>
     <main>
       <!-- Reviews Section -->
-      <div class="container text-center">
+      <div class="container">
+        <!-- TODO: Remove inline styling once populated -->
         <div class="mt-5">
-          <h2 class="message-title">Project 1</h2>
-          <p class="message-text">Project 1 description</p>
+          <h2>Reviews</h2>
+          <p>Reviews description</p>
         </div>
       </div>
       <hr class="divider" />
       <div class="container">
         <!-- Row 1 -->
         <span class="review-row-anchor" id="review-row-1"></span>
-        <div class="row card-message">
+        <div class="row review">
           <!--Scrollable-->
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left-quote card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <div class="card-text">
-                  <p>Review goes here</p>
+          <div class="col-md-8">
+            <div id="row1Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row1Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="row1Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row1Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row1Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row1Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row1Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-grin card-icon"></i>
+            <div class="card">
+              <i class="bi bi-emoji-smile"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-smile card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
@@ -126,32 +236,153 @@
 
         <!-- Row 2 -->
         <span class="review-row-anchor" id="review-row-2"></span>
-        <div class="row card-message">
+        <div class="row review">
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-sunglasses card-icon"></i>
+            <div class="card">
+              <i class="bi bi-emoji-sunglasses"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-award card-icon"></i>
+            <div class="card">
+              <i class="bi bi-heart"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+            <div id="row2Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row2Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row2Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row2Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row2Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row2Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
@@ -159,31 +390,152 @@
 
         <!-- Row 3 -->
         <span class="review-row-anchor" id="review-row-3"></span>
-        <div class="row card-message">
+        <div class="row review">
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-star card-icon"></i>
+            <div class="card">
+              <i class="bi bi-star"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+            <div id="row3Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row3Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row3Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row3Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row3Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row3Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-square card-icon"></i>
+            <div class="card">
+              <i class="bi bi-person-square"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
@@ -192,32 +544,143 @@
 
         <!-- Row 4 -->
         <span class="review-row-anchor" id="review-row-4"></span>
-        <div class="row card-message">
+        <div class="row review">
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-hearts card-icon"></i>
+            <div class="card">
+              <i class="bi bi-person-hearts"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-circle card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+          <div class="col-md-8">
+            <div id="row4Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row4Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row4Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row4Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-postage-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row4Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row4Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
@@ -225,31 +688,152 @@
 
         <!-- Row 5 -->
         <span class="review-row-anchor" id="review-row-5"></span>
-        <div class="row card-message">
+        <div class="row review">
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-hand-thumbs-up card-icon"></i>
+            <div id="row5Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row5Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="row5Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row5Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row5Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row5Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row5Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <i class="bi bi-chat-left"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left card-icon"></i>
+            <div class="card">
+              <i class="bi bi-chat-left-heart"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
@@ -258,32 +842,153 @@
 
         <!-- Row 6 -->
         <span class="review-row-anchor" id="review-row-6"></span>
-        <div class="row card-message">
+        <div class="row review">
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left-text card-icon"></i>
+            <div class="card">
+              <i class="bi bi-chat-left"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat card-icon"></i>
+            <div class="card">
+              <i class="bi bi-chat"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+            <div id="row6Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row6Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="row6Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row6Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row6Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row6Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row6Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
@@ -291,161 +996,142 @@
 
         <!-- Row 7 -->
         <span class="review-row-anchor" id="review-row-7"></span>
-        <div class="row card-message">
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+        <div class="row review">
+          <div class="col-md-8">
+            <div id="row7Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#row7Carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="row7Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#row7Carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-bs-target="#row7Carousel"
+                  data-bs-slide-to="9"
+                  aria-label="Slide 10"
+                ></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 1 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 2 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 3 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 4 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 5 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 6 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 7 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 8 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 9 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="8000">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p class="review-text">Preview 10 text</p>
+                      <hr />
+                      <p class="reviewer-date">Reviewer/Date</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#row7Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#row7Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-star card-icon"></i>
+            <div class="card">
+              <i class="bi bi-star"></i>
               <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-sunglasses card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider" />
-
-        <!-- Row 8 -->
-        <span class="review-row-anchor" id="review-row-8"></span>
-        <div class="row card-message">
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left-quote card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-postage-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-square card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider" />
-        <!-- Row 9 -->
-        <span class="review-row-anchor" id="review-row-9"></span>
-        <div class="row card-message">
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-sunglasses card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-award card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-heart card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider" />
-        <!-- Row 10 -->
-        <span class="review-row-anchor" id="review-row-10"></span>
-        <div class="row card-message">
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-emoji-grin card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-hearts card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left-text card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider" />
-
-        <!-- Row 11 -->
-        <span class="review-row-anchor" id="review-row-11"></span>
-        <div class="row card-message">
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-hand-thumbs-up card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-chat-left card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card rounded-4">
-              <i class="bi bi-person-square card-icon"></i>
-              <div class="card-body">
-                <h5 class="card-title">Review</h5>
-                <p class="card-text">Review goes here</p>
+                <p class="review-text">Review</p>
+                <hr />
+                <p class="reviewer-date">Card Reviewer/Date</p>
               </div>
             </div>
           </div>
