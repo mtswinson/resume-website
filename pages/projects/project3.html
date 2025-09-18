@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown"> About </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-cause">My Cause</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-pillars">Pillars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#villains">Villains</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active d-inline-block" role="button" data-bs-toggle="dropdown"
+                  >Projects</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="project1.html">Project 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="project2.html">Project 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item active" href="project3.html">Project 3</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="thisWebsite.html">This Website</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../reviews.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <!-- 
+        TODO:
+            Add images/elements to various rows and adjust styling accordingly 
+       -->
+      <div class="container project project3">
+        <!-- Context Row -->
+        <div class="row context">
+          <!-- Context -->
+          <div class="col-12">
+            <h1>Context</h1>
+            <p>one-liner: what the project was (product, tool, feature)</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Goal Row -->
+        <div class="row goal">
+          <!-- Goal -->
+          <div class="col-12">
+            <h1>Problem/Goal</h1>
+            <p>What challenge they were solving and why it mattered</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Process Row -->
+        <div class="row process">
+          <!-- Process -->
+          <div class="col-12">
+            <h1>Process</h1>
+            <p>How I approached it (methods, frameworks, stacks, constraints)</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Features Row -->
+        <div class="row features">
+          <!-- Features -->
+          <div class="col-12">
+            <h1>Feature Breakdown</h1>
+            <p>What I actually built (specifics without code)</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Impact Row -->
+        <div class="row impact">
+          <!-- Impact -->
+          <div class="col-12">
+            <h1>Impact/Differentiator</h1>
+            <p>Anything that hadn't been done before and the impact it had (performance gains, UX improvement)</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Reflection Row -->
+        <div class="row reflection">
+          <!-- Reflection -->
+          <div class="col-12">
+            <h1>Reflection/Key Takeaway</h1>
+            <p>What I learned</p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Contact Row -->
+        <div class="row contact">
+          <!-- Contact -->
+          <div class="col-12">
+            <h1>Contact me to learn more</h1>
+            <a href="#" class="btn btn-custom">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

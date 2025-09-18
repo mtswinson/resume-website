@@ -165,9 +165,36 @@ i {
   visibility: hidden;
 }
 
-/* -------------------------------------------------Projects styling------------------------------------------------- */
+/* -------------------------------------------------Project styling------------------------------------------------- */
 
-/* TODO: Add styling for projects once populated */
+/* Project section title */
+/* Note: Consider creating utility class for title and text if "project" styling does not greatly differ from "about" styling */
+.project h1 {
+  color: white;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-thickness: 0.125rem;
+}
+
+/* Project section text */
+.project p {
+  color: white;
+  text-align: center;
+}
+
+/* Project section row */
+.project .row {
+  margin: 1rem 0;
+}
+
+/* Project section contact title */
+.contact h1 {
+  font-size: 1rem;
+  text-decoration: none;
+}
 
 /* -------------------------------------------------Media Queries------------------------------------------------- */
 /* TODO: Double check after element population that nothing needs to be Changed/Added/Removed from here
