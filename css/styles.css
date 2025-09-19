@@ -14,6 +14,9 @@ html body {
   background-color: #7ad7ec;
   color: white;
 }
+.dropdown-toggle::after {
+  content: none;
+}
 
 /*
 logo colors:
@@ -194,6 +197,52 @@ i {
 .contact h1 {
   font-size: 1rem;
   text-decoration: none;
+}
+
+/* -------------------------------------------------Footer styling------------------------------------------------- */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+/* Contact footer button */
+.btn-contact {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: rgba(44, 163, 191, 0.5);
+  border: none;
+}
+
+/*contact footer button icon */
+.btn-contact i {
+  font-size: 1.875rem;
+  color: #7ad7ec;
+  padding: 0;
+}
+
+/* Centers contact button/icon */
+.btn-contact,
+.btn-contact i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact footer button on hover/click */
+.btn-contact.show,
+.btn-contact:hover {
+  background-color: #7ad7ec;
+  color: white;
+}
+
+/*contact footer button icon on hover/click */
+.btn-contact.show i,
+.btn-contact:hover i {
+  color: white;
 }
 
 /* -------------------------------------------------Media Queries------------------------------------------------- */
