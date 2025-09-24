@@ -116,6 +116,22 @@ i {
 
 /* ------------------------------------------------- Review Styling------------------------------------------------- */
 
+/* Review page title */
+.review-title-message h2 {
+  color: white;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+/* Review title message */
+.review-title-message p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
 /* Review card and carousel margins */
 .review .col-md-4,
 .col-md-8 {
