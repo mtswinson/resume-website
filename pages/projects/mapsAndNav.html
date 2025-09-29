@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown"> About </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-cause">My Cause</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-pillars">Pillars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#villains">Villains</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active d-inline-block" role="button" data-bs-toggle="dropdown"
+                  >Projects</a
+                >
+                <ul class="dropdown-menu">
+                  <h6 class="dropdown-header">Applications and Tools</h6>
+                  <li>
+                    <a class="dropdown-item active" href="#">Maps and Navigation</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="awb.html">Advisor Workbench</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="alertsAdminPortal.html">Alerts Admin Portal</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <h6 class="dropdown-header">Data Analytics</h6>
+                  <li>
+                    <a class="dropdown-item" href="etl.html">ETL</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../reviews.html">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <!-- 
+        TODO:
+            Add images/elements to various rows and adjust styling accordingly 
+       -->
+      <div class="container project project1">
+        <!-- Context Row -->
+        <div class="row context">
+          <!-- Context -->
+          <div class="col-12">
+            <h1>Context</h1>
+            <p>
+              Maps and Navigation was a customer-facing tool designed to help advisors guide users to their destinations
+              safely and efficiently. I joined the project early in its development, contributing to both frontend and
+              backend functionality. The interface centered around an interactive map that displayed real-time data
+              including points of interest, traffic disruptions, weather alerts, and evacuation routes. Advisors could
+              toggle map layers, search for destinations, and locate nearby services such as hotels, gas stations,
+              hospitals, restaurants, and service stations. The tool was built to support both everyday navigation and
+              emergency scenarios, ensuring customers had access to reliable routing and situational awareness.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Goal Row -->
+        <div class="row goal">
+          <!-- Goal -->
+          <div class="col-12">
+            <h1>Problem/Goal</h1>
+            <p>
+              General Motors needed a system that enabled advisors to assist customers with navigation in real time. The
+              tool had to support:
+            </p>
+            <ul>
+              <li>Route planning from current location or between two points</li>
+              <li>Identification of nearby services based on vehicle location</li>
+              <li>Visualization of road events, traffic, and weather crises</li>
+              <li>Emergency routing via evacuation paths</li>
+              <li>Real-time updates and contextual awareness of affected areas</li>
+            </ul>
+            <p>
+              The goal was to improve customer safety, reduce travel disruptions, and give advisors the tools to respond
+              quickly and accurately in both routine and crisis situations.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Process Row -->
+        <div class="row process">
+          <!-- Process -->
+          <div class="col-12">
+            <h1>Process</h1>
+            <p>
+              I worked as a full-stack developer, contributing across UI, logic, backend services, and testing
+              infrastructure. The stack included React for the frontend, API's for data handling, and a map rendering
+              engine using third party services. I navigated a large and evolving codebase, often working across
+              multiple packages and coordinating with other developers to implement features, resolve bugs, test new and
+              legacy functionality, and support refactoring efforts.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Features Row -->
+        <div class="row features">
+          <!-- Features -->
+          <div class="col-12">
+            <h1>Feature Breakdown</h1>
+            <ul>
+              <li>Selected Search Result Marker</li>
+              <ul>
+                <li>
+                  Implemented bidirectional highlighting between the map and search panel. When a user clicked a search
+                  result, the corresponding map icon would enlarge, turn purple, and gain a dark purple outline.
+                  Clicking the map icon would trigger the same visual treatment for the related search result. This
+                  required cross-component communication and careful state synchronization across multiple layers of the
+                  repository.
+                </li>
+              </ul>
+              <li>Weather Alert Details Panel</li>
+              <ul>
+                <li>
+                  Built a new route and component to display weather alert details in the left pane when a weather icon
+                  was clicked. This extended the interaction model from the previous feature and involved creating new
+                  UI elements and routing logic.
+                </li>
+              </ul>
+              <li>Accessibility Enhancements</li>
+              <ul>
+                <li>
+                  Added labelling to all actionable elements within various packages throughout the repository. This
+                  improved accessibility and laid the foundation for more reliable automated testing.
+                </li>
+              </ul>
+              <li>Typography Refactor</li>
+              <ul>
+                <li>
+                  Converted legacy typography elements to an internally developed typography component across assigned
+                  packages. This involved assessing each instance, applying the correct format, and testing for visual
+                  consistency. Some cases required creative solutions due to format mismatches.
+                </li>
+              </ul>
+              <li>Unit Testing Improvements</li>
+              <ul>
+                <li>
+                  Strengthened unit test coverage using the newly added labels and Typography component. This improved
+                  pipeline reliability and helped catch regressions introduced by future changes.
+                </li>
+              </ul>
+              <li>Auto-Displaying Evacuation Routes</li>
+              <ul>
+                <li>
+                  Developed logic to automatically enable the evacuation routes layer to display all relevant evacuation
+                  routes on the map if a crisis was detected within a 30-mile radius of the route and the relevant flag
+                  was active.
+                </li>
+              </ul>
+              <li>Change Format of Zoom Level Alert</li>
+              <ul>
+                <li>
+                  Customized the appearance of toast messages triggered by zoom level changes to match Salesforce’s
+                  color palette. This involved overriding default toast styling, sourcing color codes, and applying them
+                  manually. The toast system resisted custom styling, requiring multiple iterations before the desired
+                  look was achieved.
+                </li>
+              </ul>
+              <li>Create Auto Update Location Activity</li>
+              <ul>
+                <li>
+                  Built backend logic to log vehicle location history during automatic updates. Each entry captured the
+                  update interval and whether the trigger was user-initiated or system-driven. Initial implementation
+                  used useState, which reset on rerender. I refactored the logic using scoped variables and context to
+                  maintain state across updates.
+                </li>
+              </ul>
+              <li>Correcting Toast Error Message</li>
+              <ul>
+                <li>
+                  Updated the error message in toast notifications and verified translation keys. This echoed early work
+                  I did on the Advisor Workbench and helped close out lingering issues in the backlog.
+                </li>
+              </ul>
+              <li>Digital Twin Failover</li>
+              <ul>
+                <li>
+                  Developed a fallback mechanism for location services, allowing the system to revert to legacy calls if
+                  the desired service failed. Simulating failure conditions was inconsistent, and location updates
+                  sometimes bypassed both services. Final implementation was abandoned due to business changing
+                  directions.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Impact Row -->
+        <div class="row impact">
+          <!-- Impact -->
+          <div class="col-12">
+            <h1>Impact/Differentiator</h1>
+            <p>
+              The tool gave advisors a centralized interface for navigation and crisis response, improving customer
+              safety and service quality. Features like evacuation route logic, bidirectional UI interactions, and
+              contextual weather alerts improved usability and safety. My work on accessibility, typography, and testing
+              also contributed to long-term maintainability and reliability across the codebase.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Reflection Row -->
+        <div class="row reflection">
+          <!-- Reflection -->
+          <div class="col-12">
+            <h1>Reflection/Key Takeaway</h1>
+            <p>
+              This was the most complex and formative project I worked on at General Motors. It deepened my experience
+              in full-stack development, and showed that all of my hard work and training had put me one step closer to
+              being the best that I can be at what I do and a powerhouse in the workforce.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+    <footer class="fixed-bottom">
+      <div>
+        <button type="button" class="btn btn-contact dropdown-toggle" data-bs-toggle="dropdown">
+          <i class="bi bi-envelope"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <h6 class="dropdown-header">Contact Me</h6>
+          <li>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/mtswinson/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:mtswinson@gmail.com" class="dropdown-item">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

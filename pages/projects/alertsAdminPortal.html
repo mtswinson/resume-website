@@ -50,18 +50,20 @@
                   >Projects</a
                 >
                 <ul class="dropdown-menu">
+                  <h6 class="dropdown-header">Applications and Tools</h6>
                   <li>
-                    <a class="dropdown-item" href="project1.html">Project 1</a>
+                    <a class="dropdown-item" href="mapsAndNav.html">Maps and Navigation</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="project2.html">Project 2</a>
+                    <a class="dropdown-item" href="awb.html">Advisor Workbench</a>
                   </li>
                   <li>
-                    <a class="dropdown-item active" href="project3.html">Project 3</a>
+                    <a class="dropdown-item active" href="alertsAdminPortal.html">Alerts Admin Portal</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
+                  <h6 class="dropdown-header">Data Analytics</h6>
                   <li>
-                    <a class="dropdown-item" href="thisWebsite.html">This Website</a>
+                    <a class="dropdown-item" href="etl.html">ETL</a>
                   </li>
                 </ul>
               </li>
@@ -85,7 +87,11 @@
           <!-- Context -->
           <div class="col-12">
             <h1>Context</h1>
-            <p>one-liner: what the project was (product, tool, feature)</p>
+            <p>
+              The Alerts Admin Portal was a web-based tool designed to log and manage real-time alerts related to
+              driving conditions—such as weather events, road closures, traffic disruptions, and accidents—within a
+              defined geographic area.
+            </p>
           </div>
         </div>
         <hr class="divider" />
@@ -94,7 +100,12 @@
           <!-- Goal -->
           <div class="col-12">
             <h1>Problem/Goal</h1>
-            <p>What challenge they were solving and why it mattered</p>
+            <p>
+              General Motors needed a system that allowed advisors to record and monitor events that could affect a
+              customer's driving experience. The tool had to support logging of event type, severity, location, time
+              frame, and geographic scope (including multi-state and multi-county coverage). Advisors needed immediate
+              access to this data to provide informed guidance and improve customer safety.
+            </p>
           </div>
         </div>
         <hr class="divider" />
@@ -103,7 +114,13 @@
           <!-- Process -->
           <div class="col-12">
             <h1>Process</h1>
-            <p>How I approached it (methods, frameworks, stacks, constraints)</p>
+            <p>
+              I approached the project as a full-stack contributor, focusing primarily on frontend development while
+              extending backend services to support new data structures. The stack included React for the UI and API's
+              for data persistence. A key constraint was the need to support complex geographic inputs—such as multiple
+              states and county codes—which required backend schema updates and frontend logic to handle dynamic form
+              behavior.
+            </p>
           </div>
         </div>
         <hr class="divider" />
@@ -112,7 +129,36 @@
           <!-- Features -->
           <div class="col-12">
             <h1>Feature Breakdown</h1>
-            <p>What I actually built (specifics without code)</p>
+            <ul>
+              <li>Add Alerts Form</li>
+              <ul>
+                <li>
+                  This was the core component of the portal, enabling advisors to log new alerts. I built a multi-field
+                  form that captured event metadata including type, severity, location, and time range. The form
+                  supported advanced geographic input, allowing users to specify multiple states, counties, and county
+                  codes. To support this, I modified backend services to accept and process object array-based inputs,
+                  updated validation logic, and ensured compatibility with downstream systems.
+                </li>
+              </ul>
+              <li>Geographic Scope Handling</li>
+              <ul>
+                <li>
+                  The original backend was not designed to handle multi-region alerts. I extended the data model and API
+                  layer to support nested geographic structures, enabling alerts to span multiple locations. On the
+                  frontend, I implemented dynamic field rendering and conditional logic to guide the advisor through
+                  valid input combinations, reducing the risk of malformed data.
+                </li>
+              </ul>
+              <li>Alerts Table Interaction</li>
+              <ul>
+                <li>
+                  I developed a flexible table interface for viewing and managing logged alerts. Advisors could open a
+                  popover to customize the table layout—dragging and dropping column headers, locking or hiding fields,
+                  and preserving two fixed-position columns for context. The table state was reactive, automatically
+                  updating to reflect layout changes and maintaining data integrity across views.
+                </li>
+              </ul>
+            </ul>
           </div>
         </div>
         <hr class="divider" />
@@ -121,7 +167,12 @@
           <!-- Impact -->
           <div class="col-12">
             <h1>Impact/Differentiator</h1>
-            <p>Anything that hadn't been done before and the impact it had (performance gains, UX improvement)</p>
+            <p>
+              The portal gave advisors a centralized way to log and access real-time driving alerts, improving their
+              ability to assist customers proactively. The geographic input enhancements and table customization
+              features made the tool more adaptable to complex scenarios. The drag-and-drop column logic I implemented
+              improved usability and was later referenced in other internal tools.
+            </p>
           </div>
         </div>
         <hr class="divider" />
@@ -130,7 +181,12 @@
           <!-- Reflection -->
           <div class="col-12">
             <h1>Reflection/Key Takeaway</h1>
-            <p>What I learned</p>
+            <p>
+              This project gave me a strong foundation in full-stack development. While the bulk of my work was
+              frontend-focused, I gained experience in extending backend services to support new data formats and
+              workflows. It prepared me for future projects that required deeper integration between UI behavior and
+              backend logic.
+            </p>
           </div>
         </div>
         <hr class="divider" />

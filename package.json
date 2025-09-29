@@ -4,10 +4,10 @@
   "scripts": {},
   "fileVersions": {
     "index.html": "1.0.0",
-    "pages/projects/project1.html": "1.0.0",
-    "pages/projects/project2.html": "1.0.0",
-    "pages/projects/project3.html": "1.0.0",
-    "pages/projects/thisWebsite.html": "1.0.0",
+    "pages/projects/alertsAdminPortal.html": "1.0.0",
+    "pages/projects/awb.html": "1.0.0",
+    "pages/projects/etl.html": "1.0.0",
+    "pages/projects/mapsAndNav.html": "1.0.0",
     "pages/reviews.html": "1.0.0"
   },
   "dependencies": {
