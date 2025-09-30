@@ -1,0 +1,266 @@
+html body {
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+/* Custom button */
+.btn-custom {
+  background-color: #2ca3bf;
+  color: white;
+}
+
+/* Custom button on hover */
+.btn-custom:hover {
+  background-color: #7ad7ec;
+  color: white;
+}
+
+/* Removes caret from dropdowns */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/*
+logo colors:
+    dark-green: #2CA3BF
+    light-green: #74E8CF
+    light-blue: #7AD7EC
+    dark-blue: #2A58A1
+*/
+
+/* Page background */
+.gradient-bg {
+  background: linear-gradient(to bottom right, #3c75a6, #1d3b57);
+  min-height: 100vh;
+}
+
+/* -------------------------------------------------Navbar Styling------------------------------------------------- */
+
+/* Navbar logo */
+.navbar-brand img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* -------------------------------------------------Carousel Styling------------------------------------------------- */
+
+/* Adds bottom margin to preview carousel */
+.preview {
+  margin-bottom: 4rem;
+}
+
+/* Carousel contents */
+.carousel-caption {
+  bottom: 3rem;
+}
+
+/* Preview carousel title */
+.preview h1 {
+  font-size: 1.75rem;
+}
+
+/* Preview carousel paragraphs */
+.preview p {
+  font-size: 0.75rem;
+  max-height: 9rem;
+  overflow-y: auto;
+}
+
+/* Carousel slide */
+.carousel-item {
+  height: 20rem;
+  background-color: rgba(119, 119, 119, 0.25);
+}
+
+/* -------------------------------------------------About Section Styling------------------------------------------------- */
+
+/* Icon in about and review cards  */
+i {
+  position: relative;
+  padding-left: 5%;
+  font-size: 5rem;
+  color: #1d3b57;
+}
+
+/* Card item */
+.about .card {
+  margin-bottom: 1.5rem;
+  width: 18rem;
+  border-radius: 0.75rem;
+}
+
+/* Card content */
+.about .card-body {
+  margin: 0 0.75rem;
+}
+
+/* Card title */
+.about h5 {
+  font-weight: 400;
+}
+
+/* Skills column header */
+.skills .col-md-4 h5 {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+/* Skills title */
+.skill-title {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Skills text */
+.skills li {
+  font-size: 0.75rem;
+}
+
+/* Title for "About" sections */
+.about h2 {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* divider */
+.divider {
+  margin: 5rem 0;
+}
+
+/* ------------------------------------------------- Review Styling------------------------------------------------- */
+
+/* Review page title */
+.review-title-message h2 {
+  font-weight: 200;
+  line-height: 1;
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+/* Review title message */
+.review-title-message p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Review card and carousel margins */
+.review .col-md-4,
+.col-md-8 {
+  margin: 0.75rem 0;
+}
+
+/* Review card and carousel radius */
+.review .carousel-inner,
+.card {
+  border-radius: 1rem;
+}
+
+/* Carousel review text */
+.review-text {
+  font-size: 0.75rem;
+  max-height: 9rem;
+  overflow-y: auto;
+  text-align: center;
+}
+
+/* Reviewer and date on review carousels and cards*/
+.reviewer-date {
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+/* -------------------------------------------------Anchor Styling------------------------------------------------------------ */
+
+/* places anchor at top of viewport */
+.anchor {
+  display: block;
+  height: 7.188rem;
+  margin-top: -7.188rem;
+  visibility: hidden;
+}
+
+/* Centers viewport on the review row */
+.review-row-anchor {
+  display: block;
+  height: 19.688rem;
+  margin-top: -19.688rem;
+  visibility: hidden;
+}
+
+/* -------------------------------------------------Project styling------------------------------------------------- */
+
+/* Project title */
+.project-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/* Project section title */
+.project .col-12 h1 {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-thickness: 0.125rem;
+}
+
+/* Project section row */
+.project .row {
+  margin: 1rem 0;
+}
+
+/* -------------------------------------------------Footer styling------------------------------------------------- */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+/* Contact footer button */
+.btn-contact {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: rgba(44, 163, 191, 0.5);
+  border: none;
+}
+
+/*contact footer button icon */
+.btn-contact i {
+  font-size: 1.875rem;
+  color: #7ad7ec;
+  padding: 0;
+}
+
+/* Centers contact button/icon */
+.btn-contact,
+.btn-contact i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact footer button on hover/click */
+.btn-contact.show,
+.btn-contact:hover {
+  background-color: #7ad7ec;
+  color: white;
+}
+
+/*contact footer button icon on hover/click */
+.btn-contact.show i,
+.btn-contact:hover i {
+  color: white;
+}
+
+/* -------------------------------------------------Media Queries------------------------------------------------- */
+/*
+@media (min-width: 62em) {
+} */

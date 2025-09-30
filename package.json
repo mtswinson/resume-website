@@ -4,7 +4,15 @@
   "scripts": {},
   "fileVersions": {
     "index.html": "1.0.0",
-    "styles/main.css": "1.0.0",
-    "scripts/main.js": "1.0.0"
+    "pages/projects/alertsAdminPortal.html": "1.0.0",
+    "pages/projects/awb.html": "1.0.0",
+    "pages/projects/etl.html": "1.0.0",
+    "pages/projects/mapsAndNav.html": "1.0.0",
+    "pages/reviews.html": "1.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   }
 }

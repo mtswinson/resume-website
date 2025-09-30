@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown"> About </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-cause">Who I Am</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#villains">Employer Issues</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-pillars">My Skills</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active d-inline-block" role="button" data-bs-toggle="dropdown"
+                  >Projects</a
+                >
+                <ul class="dropdown-menu">
+                  <h6 class="dropdown-header">Applications and Tools</h6>
+                  <li>
+                    <a class="dropdown-item" href="mapsAndNav.html">Maps and Navigation</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item active" href="awb.html">Advisor Workbench</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="alertsAdminPortal.html">Alerts Admin Portal</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <h6 class="dropdown-header">Data Analytics</h6>
+                  <li>
+                    <a class="dropdown-item" href="etl.html">ETL</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../reviews.html">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <div class="container project">
+        <h1 class="project-title">Advisor Workbench</h1>
+        <hr class="divider" />
+        <!-- Context Row -->
+        <div class="row context">
+          <!-- Context -->
+          <div class="col-12">
+            <h1>Context</h1>
+            <p>
+              Internal tool consisting of dynamic user interfaces to help customer support teams efficiently manage
+              customer information, incorporating responsive layouts, conditional logic, and data validation, while
+              adhering to test-driven development and maintaining a goal of performance optimization.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Goal Row -->
+        <div class="row goal">
+          <!-- Goal -->
+          <div class="col-12">
+            <h1>Problem/Goal</h1>
+            <p>
+              General Motors required a reliable interface for advisors to view, update, and create customer and vehicle
+              records while engaging with customers and third-party services. Our objective was to build the necessary
+              components and backend services to support this workflow and improve the overall efficiency of advisor
+              operations.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Process Row -->
+        <div class="row process">
+          <!-- Process -->
+          <div class="col-12">
+            <h1>Process</h1>
+            <p>
+              I contributed to both frontend and backend development, focusing on form behavior, data validation, and
+              integration with existing systems. The stack included React for the UI and API's for data persistence.
+              Constraints included strict formatting rules for regional data and upstream validation requirements.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Features Row -->
+        <div class="row features">
+          <!-- Features -->
+          <div class="col-12">
+            <h1>Feature Breakdown</h1>
+            <ul>
+              <li>Profile Details</li>
+              <ul>
+                <li>
+                  This component served as the initial entry point for customer data. I built a structured form using
+                  React, designed to capture essential customer information including name, contact details, address,
+                  etc. While the logic was minimal, the form architecture emphasized clean separation of concerns—each
+                  input field was modularized for reuse and validation. On the backend, I extended the data model and
+                  updated the API layer to accept and persist the new payload structure, ensuring compatibility with
+                  upstream services.
+                </li>
+              </ul>
+              <li>Member Profile</li>
+              <ul>
+                <li>
+                  A more complex form system that supported both creation and editing of customer profiles. I
+                  implemented conditional rendering and dynamic field states based on user input and existing data. For
+                  example, fields would auto-disable if certain criteria were met, and validation rules were
+                  region-specific—phone numbers, zip codes, and addresses were formatted and validated according to
+                  locale. I also introduced input masking and auto-formatting logic to reduce advisor error and improve
+                  data integrity. This component required tight coordination between frontend logic and backend
+                  validation schemas.
+                </li>
+              </ul>
+              <li>Preferred Dealer</li>
+              <ul>
+                <li>
+                  This form allowed advisors to view and update a customer's preferred dealership for each vehicle. The
+                  component was designed to be context-aware: it would dynamically enable or restrict editing based on
+                  customer preferences and account status. I built a state management layer that listened to changes in
+                  customer data and adjusted the UI accordingly. The form also included a lookup feature for available
+                  dealers, integrating with a backend service to fetch and filter results. This ensured advisors could
+                  only select valid options, reducing the risk of mismatched data and improving workflow reliability
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Impact Row -->
+        <div class="row impact">
+          <!-- Impact -->
+          <div class="col-12">
+            <h1>Impact/Differentiator</h1>
+            <p>
+              The tool improved advisor efficiency by consolidating key customer and vehicle data into a single
+              interface. A phone number formatting solution I developed was adopted across multiple components,
+              replacing a less reliable implementation and improving data consistency.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Reflection Row -->
+        <div class="row reflection">
+          <!-- Reflection -->
+          <div class="col-12">
+            <h1>Reflection/Key Takeaway</h1>
+            <p>
+              This project reinforced the importance of thoughtful form design and backend coordination. I gained
+              experience in building reactive interfaces that respect business rules and learned how small
+              improvements—like better formatting logic—can have wide-reaching effects across a system.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+    <footer class="fixed-bottom">
+      <div>
+        <button type="button" class="btn btn-contact dropdown-toggle" data-bs-toggle="dropdown">
+          <i class="bi bi-envelope"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <h6 class="dropdown-header">Contact Me</h6>
+          <li>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/mtswinson/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:mtswinson@gmail.com" class="dropdown-item">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

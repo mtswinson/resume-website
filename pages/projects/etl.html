@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body class="gradient-bg">
+    <header class="sticky-top">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light py-0">
+        <div class="container-fluid">
+          <span class="navbar-brand">
+            <img src="../../images/home/ms_logo.svg" alt="home-logo" />
+          </span>
+          <button
+            class="navbar-toggler me-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-inline-block" role="button" data-bs-toggle="dropdown"> About </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-cause">Who I Am</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#villains">Employer Issues</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../index.html#my-pillars">My Skills</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active d-inline-block" role="button" data-bs-toggle="dropdown"
+                  >Projects</a
+                >
+                <ul class="dropdown-menu">
+                  <h6 class="dropdown-header">Applications and Tools</h6>
+                  <li>
+                    <a class="dropdown-item" href="mapsAndNav.html">Maps and Navigation</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="awb.html">Advisor Workbench</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="alertsAdminPortal.html">Alerts Admin Portal</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <h6 class="dropdown-header">Data Analytics</h6>
+                  <li>
+                    <a class="dropdown-item active" href="etl.html">ETL</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="../reviews.html">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <div class="container project">
+        <h1 class="project-title">Data Migration</h1>
+        <hr class="divider" />
+        <!-- Context Row -->
+        <div class="row context">
+          <!-- Context -->
+          <div class="col-12">
+            <h1>Context</h1>
+            <p>
+              Participated in a large-scale data migration project, using IBM DataStage and SQL to extract, transform,
+              and load sensitive vehicle, ownership, and coverage data from multiple legacy systems into a more
+              mordernized and reliable system
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Goal Row -->
+        <div class="row goal">
+          <!-- Goal -->
+          <div class="col-12">
+            <h1>Problem/Goal</h1>
+            <p>
+              Legacy systems were being phased out, requiring a complete transfer of customer and vehicle data to newer
+              platforms. Migrating this data was essential to improve system reliability and ensure that advisors had
+              access to accurate, up-to-date information—ultimately enhancing the customer experience.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Process Row -->
+        <div class="row process">
+          <!-- Process -->
+          <div class="col-12">
+            <h1>Process</h1>
+            <p>
+              As someone new to DataStage and the broader ETL ecosystem, I began by familiarizing myself with the tools
+              and workflows. I started with small-scale payload transfers in test environments, using SQL to query both
+              source and target databases to verify data integrity. This hands-on approach helped me build confidence
+              and understand the nuances of the migration process, including schema alignment, transformation logic, and
+              delivery validation.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Features Row -->
+        <div class="row features">
+          <!-- Features -->
+          <div class="col-12">
+            <h1>Feature Breakdown</h1>
+            <ul>
+              <li>Data Extraction</li>
+              <ul>
+                <li>
+                  I was responsible for querying and retrieving structured data from legacy systems, which included
+                  customer profiles, vehicle ownership records, and coverage details. This involved writing SQL queries
+                  tailored to each legacy schema and ensuring that sensitive fields were handled correctly during
+                  extraction.
+                </li>
+              </ul>
+              <li>Data Transformation</li>
+              <ul>
+                <li>
+                  Once extracted, the data needed to be reshaped to fit the target schema. I implemented transformation
+                  logic within DataStage to normalize formats, convert field types, and apply business rules. This
+                  included tasks like reformatting date fields, mapping legacy codes to new identifiers, and ensuring
+                  referential integrity across related tables.
+                </li>
+              </ul>
+              <li>Data Loading</li>
+              <ul>
+                <li>
+                  Transformed data was loaded into the new system using DataStage pipelines. I monitored pipeline
+                  execution, handled error logging, and validated row counts and field-level accuracy post-load. I also
+                  coordinated with QA to ensure that the migrated data met acceptance criteria before being marked as
+                  production-ready.
+                </li>
+              </ul>
+              <li>Pipeline Monitoring and Delivery Validation</li>
+              <ul>
+                <li>
+                  I tracked the status of data transfers, monitored server health during migration windows, and
+                  performed sanity checks on delivery batches. This included verifying that no records were dropped,
+                  truncated, or misaligned during the ETL process.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Impact Row -->
+        <div class="row impact">
+          <!-- Impact -->
+          <div class="col-12">
+            <h1>Impact/Differentiator</h1>
+            <p>
+              The migration enabled advisors to access cleaner, more reliable customer and vehicle data through modern
+              systems. The improved data quality and system responsiveness directly supported better service outcomes.
+              My transformation logic and validation routines helped reduce downstream errors and ensured a smoother
+              transition from legacy infrastructure.
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- Reflection Row -->
+        <div class="row reflection">
+          <!-- Reflection -->
+          <div class="col-12">
+            <h1>Reflection/Key Takeaway</h1>
+            <p>
+              This was my first experience working in an enterprise-scale ETL environment. It gave me a clear view of
+              how data flows through backend systems and how foundational it is to application reliability. I learned
+              how to navigate unfamiliar tools, adapt quickly, and contribute meaningfully to a high-stakes migration
+              effort
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+    </main>
+    <footer class="fixed-bottom">
+      <div>
+        <button type="button" class="btn btn-contact dropdown-toggle" data-bs-toggle="dropdown">
+          <i class="bi bi-envelope"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <h6 class="dropdown-header">Contact Me</h6>
+          <li>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/mtswinson/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:mtswinson@gmail.com" class="dropdown-item">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
