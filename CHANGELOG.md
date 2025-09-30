@@ -1,10 +1,29 @@
 # Changelog
 
+## [1.0.2] – 2025-09-30
+
+### Changed
+
+[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
+
+- Upgraded `index.html` to `v1.0.2`
+  - Changed tab title to `mtswinson`
+
+### Added
+
+[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
+
+- Added dates to changelog entries
+
+### Removed
+
+### Fixed
+
 ## [1.0.1] – 2025-09-30
 
 ### Changed
 
-[PR #2](https://github.com/mtswinson/resume-website/pull/2)
+[PR #2](https://github.com/mtswinson/resume-website/pull/2) - 2025-09-30
 
 - Moved `style.css` to root
 - Upgraded `index.html`, `reviews.html`, `alertsAdminPortal.html`, `awb.html`, `etl.html`, and `mapsAndNav.html` to `v1.0.1`
@@ -15,7 +34,7 @@
 
 ### Removed
 
-[PR #2](https://github.com/mtswinson/resume-website/pull/2)
+[PR #2](https://github.com/mtswinson/resume-website/pull/2) - 2025-09-30
 
 - Removed node_modules and `package-lock.json`
 - Removed css folder
@@ -29,7 +48,7 @@
 
 ### Added
 
-[PR #1](https://github.com/mtswinson/resume-website/pull/1)
+[PR #1](https://github.com/mtswinson/resume-website/pull/1) - 2025-09-30
 
 - Populated `index.html`.
 - Created `reviews.html`, `alertsAdminPortal.html`, `awb.html`, `etl.html`, and `mapsAndNav.html`.
@@ -39,7 +58,7 @@
 
 ### Removed
 
-[PR #1](https://github.com/mtswinson/resume-website/pull/1)
+[PR #1](https://github.com/mtswinson/resume-website/pull/1) - 2025-09-30
 
 -Removed script folder and file
 
