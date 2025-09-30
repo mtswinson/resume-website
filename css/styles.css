@@ -64,6 +64,8 @@ logo colors:
 /* Preview carousel paragraphs */
 .preview p {
   font-size: 0.75rem;
+  max-height: 9rem;
+  overflow-y: auto;
 }
 
 /* Carousel slide */
@@ -72,7 +74,7 @@ logo colors:
   background-color: rgba(119, 119, 119, 0.25);
 }
 
-/* -------------------------------------------------Card Styling------------------------------------------------- */
+/* -------------------------------------------------About Section Styling------------------------------------------------- */
 
 /* Icon in about and review cards  */
 i {
@@ -99,8 +101,26 @@ i {
   font-weight: 400;
 }
 
+/* Skills column header */
+.skills .col-md-4 h5 {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+/* Skills title */
+.skill-title {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Skills text */
+.skills li {
+  font-size: 0.75rem;
+}
+
 /* Title for "About" sections */
-.about .col-md-8 h2 {
+.about h2 {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
@@ -115,10 +135,11 @@ i {
 
 /* Review page title */
 .review-title-message h2 {
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1;
   font-size: 4.5rem;
   text-align: center;
+  margin: 3rem 0;
 }
 
 /* Review title message */
@@ -181,9 +202,15 @@ i {
 
 /* -------------------------------------------------Project styling------------------------------------------------- */
 
+/* Project title */
+.project-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
 /* Project section title */
 /* Note: Consider creating utility class for title and text if "project" styling does not greatly differ from "about" styling */
-.project h1 {
+.project .col-12 h1 {
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.05rem;
@@ -195,12 +222,6 @@ i {
 /* Project section row */
 .project .row {
   margin: 1rem 0;
-}
-
-/* Project section contact title */
-.contact h1 {
-  font-size: 1rem;
-  text-decoration: none;
 }
 
 /* -------------------------------------------------Footer styling------------------------------------------------- */
