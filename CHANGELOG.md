@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.2] – 2025-09-30
+
+### Changed
+
+[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
+
+- Upgraded `index.html` to `v1.0.2`
+  - Changed tab title to `mtswinson`
+
+### Added
+
+[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
+
+- Added dates to changelog entries
+
+### Removed
+
+### Fixed
+
 ## [1.0.1] – 2025-09-30
 
 ### Changed
@@ -49,16 +68,7 @@
 
 ### Changed
 
-[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
-
-- Upgraded `index.html` to `v1.0.2`
-  - Changed tab title to `mtswinson`
-
 ### Added
-
-[PR #3](https://github.com/mtswinson/resume-website/pull/3) - 2025-09-30
-
-- Added dates to changelog entries
 
 ### Removed
 
