@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.1] – 2025-09-30
+
+### Changed
+
+[PR #2](https://github.com/mtswinson/resume-website/pull/2)
+
+- Moved `style.css` to root
+- Upgraded `index.html`, `reviews.html`, `alertsAdminPortal.html`, `awb.html`, `etl.html`, and `mapsAndNav.html` to `v1.0.1`
+  - Changed bootstrap references to CDN Link
+  - Edited stylesheet reference to reference new file location
+
+### Added
+
+### Removed
+
+[PR #2](https://github.com/mtswinson/resume-website/pull/2)
+
+- Removed node_modules and `package-lock.json`
+- Removed css folder
+- Removed dependencies in `package.json`
+
+### Fixed
+
 ## [1.0.0] – 2025-09-30
 
 ### Changed
@@ -26,21 +49,8 @@
 
 ### Changed
 
-[PR #2](https://github.com/mtswinson/resume-website/pull/2)
-
-- Moved `style.css` to root
-- Upgraded `index.html`, `reviews.html`, `alertsAdminPortal.html`, `awb.html`, `etl.html`, and `mapsAndNav.html` to `v1.0.1`
-  - Changed bootstrap references to CDN Link
-  - Edited stylesheet reference to reference new file location
-
 ### Added
 
 ### Removed
-
-[PR #2](https://github.com/mtswinson/resume-website/pull/2)
-
-- Removed node_modules and `package-lock.json`
-- Removed css folder
-- Removed dependencies in `package.json`
 
 ### Fixed
