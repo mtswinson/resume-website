@@ -51,7 +51,6 @@ logo colors:
 }
 
 /* Carousel contents */
-/* TODO: Adjust bottom if needed once populated */
 .carousel-caption {
   bottom: 3rem;
 }
@@ -154,11 +153,6 @@ i {
   margin: 0.75rem 0;
 }
 
-/* TODO: 
-    Adjust carousel-caption positioning if needed once populated
-    Add styling for header title/text
-*/
-
 /* Review card and carousel radius */
 .review .carousel-inner,
 .card {
@@ -166,7 +160,6 @@ i {
 }
 
 /* Carousel review text */
-/* Note: If font-size stays the same, maybe create a utility class */
 .review-text {
   font-size: 0.75rem;
   max-height: 9rem;
@@ -181,8 +174,6 @@ i {
 }
 
 /* -------------------------------------------------Anchor Styling------------------------------------------------------------ */
-
-/* TODO: Check anchors to see if they go to the right scroll location after text addition */
 
 /* places anchor at top of viewport */
 .anchor {
@@ -209,7 +200,6 @@ i {
 }
 
 /* Project section title */
-/* Note: Consider creating utility class for title and text if "project" styling does not greatly differ from "about" styling */
 .project .col-12 h1 {
   font-weight: 400;
   line-height: 1;
@@ -271,7 +261,6 @@ footer {
 }
 
 /* -------------------------------------------------Media Queries------------------------------------------------- */
-/* TODO: Double check after element population that nothing needs to be Changed/Added/Removed from here
+/*
 @media (min-width: 62em) {
-  
 } */
