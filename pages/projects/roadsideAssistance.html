@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alerts Admin Portal - mtswinson</title>
+    <title>Roadside Assistance - mtswinson</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="../../styles.css" />
@@ -55,10 +55,10 @@
                     <a class="dropdown-item" href="mapsAndNav.html">Maps and Navigation</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="roadsideAssistance.html">Roadside Assistance</a>
+                    <a class="dropdown-item active" href="roadsideAssistance.html">Roadside Assistance</a>
                   </li>
                   <li>
-                    <a class="dropdown-item active" href="alertsAdminPortal.html">Alerts Admin Portal</a>
+                    <a class="dropdown-item" href="alertsAdminPortal.html">Alerts Admin Portal</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="awb.html">Advisor Workbench</a>
@@ -82,8 +82,8 @@
       <!-- Projects Section -->
       <div class="container project">
         <div class="project-header">
-          <h1>Alerts Admin Portal</h1>
-          <p>(Apr 2023 - Sep 2023)</p>
+          <h1>Roadside Assistance</h1>
+          <p>(Oct 2023 - Jan 2024)</p>
         </div>
         <hr class="divider" />
         <!-- Context Row -->
@@ -92,9 +92,10 @@
           <div class="col-12">
             <h1>Context</h1>
             <p>
-              The Alerts Admin Portal was an internal tool designed to log and manage real-time alerts related to
-              driving conditions—such as weather events, road closures, traffic disruptions, and accidents—within a
-              defined geographic area.
+              Developed a rule-based eligibility tool that was integrated into General Motors’ emergency support
+              ecosystem. The tool assessed customer entitlement to roadside services based on coverage tier, location,
+              and policy constraints. It worked with third-party roadside response services and General Motors’ Mobile
+              Guardian app, enabling customers to initiate and manage roadside events directly from their devices.
             </p>
           </div>
         </div>
@@ -105,10 +106,10 @@
           <div class="col-12">
             <h1>Problem/Goal</h1>
             <p>
-              General Motors needed a system that allowed advisors to record and monitor events that could affect a
-              customer's driving experience. The tool had to support logging of event type, severity, location, time
-              frame, and geographic scope (including multi-state and multi-county coverage). Advisors needed immediate
-              access to this data to provide informed guidance and improve customer safety.
+              General Motors required a real-time tool to determine customer eligibility for roadside assistance.
+              Advisors and roadside technicians needed immediate access to accurate coverage data to dispatch
+              appropriate services. The system had to accommodate complex coverage logic, regional rules, and policy
+              exceptions while integrating with mobile platforms and external service providers.
             </p>
           </div>
         </div>
@@ -119,50 +120,10 @@
           <div class="col-12">
             <h1>Process</h1>
             <p>
-              I approached the project as a full-stack contributor, focusing primarily on frontend development while
-              extending backend services to support new data structures. The stack included React for the UI and API's
-              for data persistence. A key constraint was the need to support complex geographic inputs—such as multiple
-              states and county codes—which required backend schema updates and frontend logic to handle dynamic form
-              behavior.
+              Designed and implemented backend logic to evaluate customer coverage against service tiers and packages.
+              Built rule-based flows that accounted for geographic constraints, policy limitations, and service
+              boundaries. Ensured seamless integration with internal and third-party systems.
             </p>
-          </div>
-        </div>
-        <hr class="divider" />
-        <!-- Features Row -->
-        <div class="row features">
-          <!-- Features -->
-          <div class="col-12">
-            <h1>Feature Breakdown</h1>
-            <ul>
-              <li>Add Alerts Form</li>
-              <ul>
-                <li>
-                  This was the core component of the portal, enabling advisors to log new alerts. I built a multi-field
-                  form that captured event metadata including type, severity, location, and time range. The form
-                  supported advanced geographic input, allowing users to specify multiple states, counties, and county
-                  codes. To support this, I modified backend services to accept and process object array-based inputs,
-                  updated validation logic, and ensured compatibility with downstream systems.
-                </li>
-              </ul>
-              <li>Geographic Scope Handling</li>
-              <ul>
-                <li>
-                  The original backend was not designed to handle multi-region alerts. I extended the data model and API
-                  layer to support nested geographic structures, enabling alerts to span multiple locations. On the
-                  frontend, I implemented dynamic field rendering and conditional logic to guide the advisor through
-                  valid input combinations, reducing the risk of malformed data.
-                </li>
-              </ul>
-              <li>Alerts Table Interaction</li>
-              <ul>
-                <li>
-                  I developed a flexible table interface for viewing and managing logged alerts. Advisors could open a
-                  popover to customize the table layout—dragging and dropping column headers, locking or hiding fields,
-                  while preserving two fixed-position columns. The table state was reactive, automatically updating to
-                  reflect layout changes and maintaining data integrity across views.
-                </li>
-              </ul>
-            </ul>
           </div>
         </div>
         <hr class="divider" />
@@ -172,10 +133,10 @@
           <div class="col-12">
             <h1>Impact/Differentiator</h1>
             <p>
-              The portal gave advisors a centralized way to log and access real-time driving alerts, improving their
-              ability to assist customers proactively. The geographic input enhancements and table customization
-              features made the tool more adaptable to complex scenarios. The drag-and-drop column logic I implemented
-              improved usability and was later referenced in other internal tools.
+              Enhanced service accuracy and reduced friction during roadside events. Customers received faster, more
+              precise support; advisors and roadside technicians gained clearer visibility into service entitlements.
+              Mobile Guardian integration empowered users to initiate and handle service independently. The scalable
+              rule engine laid the foundation for future automation and service expansion.
             </p>
           </div>
         </div>
@@ -186,10 +147,10 @@
           <div class="col-12">
             <h1>Reflection/Key Takeaway</h1>
             <p>
-              This project gave me a strong foundation in full-stack development. While the bulk of my work was
-              frontend-focused, I gained experience in extending backend services to support new data formats and
-              workflows. It prepared me for future projects that required deeper integration between UI behavior and
-              backend logic.
+              This project marked a pivotal moment in my full-stack development career. I took ownership of backend
+              logic, delivered under pressure, and expanded my proficiency with Azure and service architecture. It
+              strengthened my backend development skills and ability to deliver reliable, production-ready solutions on
+              time.
             </p>
           </div>
         </div>
