@@ -3,11 +3,12 @@
   "version": "1.0.2",
   "scripts": {},
   "fileVersions": {
-    "index.html": "1.0.2",
-    "pages/projects/alertsAdminPortal.html": "1.0.1",
-    "pages/projects/awb.html": "1.0.1",
-    "pages/projects/etl.html": "1.0.1",
-    "pages/projects/mapsAndNav.html": "1.0.1",
-    "pages/reviews.html": "1.0.1"
+    "index.html": "1.0.3",
+    "pages/projects/alertsAdminPortal.html": "1.0.2",
+    "pages/projects/awb.html": "1.0.2",
+    "pages/projects/etl.html": "1.0.2",
+    "pages/projects/mapsAndNav.html": "1.0.2",
+    "pages/projects/roadsideAssistance.html": "1.0.0",
+    "pages/reviews.html": "1.0.2"
   }
 }
