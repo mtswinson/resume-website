@@ -1,5 +1,57 @@
 # Changelog
 
+## [1.0.3] - 2025-10-01
+
+### Changed
+
+[PR #4](https://github.com/mtswinson/resume-website/pull/4) - 2025-10-01
+
+- Upgraded `index.html` to `v1.0.3`
+  - Changed tab title
+  - Increased slide interavals for carousel
+  - Rearranged carousel slides
+  - Changed dropdown order and added `Roadside Assistance` option
+- Upgraded `reviews.html` to `v1.0.2`
+  - Changed tab title
+  - Changed dropdown order and added `Roadside Assistance` option
+  - Added dates to project title
+- Upgraded `alertsAdminPortal.html` to `v1.0.2`
+  - Changed tab title
+  - Changed dropdown order and added `Roadside Assistance` option
+  - Added dates to project title
+- Upgraded `awb.html` to `v1.0.2`
+  - Changed tab title
+  - Changed dropdown order and added `Roadside Assistance` option
+  - Added dates to project title
+  - Fixed grammatical errors
+- Upgraded `etl.html` to `v1.0.2`
+  - Changed tab title
+  - Changed dropdown order and added `Roadside Assistance` option
+  - Added dates to project title
+  - Fixed grammatical errors
+- Upgraded `mapsAndNav.html` to `v1.0.2`
+  - Changed tab title
+  - Changed dropdown order and added `Roadside Assistance` option
+  - Added dates to project title
+  - Fixed grammatical errors
+
+### Added
+
+[PR #4](https://github.com/mtswinson/resume-website/pull/4) - 2025-10-01
+
+- Created `roadsideAssistance.html`
+- Upgraded `index.html` to `v1.0.3`
+  - Added slide to carousel in `index.html`
+
+### Removed
+
+[PR #4](https://github.com/mtswinson/resume-website/pull/4) - 2025-10-01
+
+- Upgraded `awb.html` to `v1.0.2`
+  - Removed extra tag opener in `awb.html`
+
+### Fixed
+
 ## [1.0.2] – 2025-09-30
 
 ### Changed
