@@ -1,6 +1,6 @@
 {
   "name": "resume-website",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {},
   "fileVersions": {
     "index.html": "1.0.3",
@@ -9,6 +9,6 @@
     "pages/projects/etl.html": "1.0.2",
     "pages/projects/mapsAndNav.html": "1.0.2",
     "pages/projects/roadsideAssistance.html": "1.0.0",
-    "pages/reviews.html": "1.0.2"
+    "pages/reviews.html": "1.0.3"
   }
 }
