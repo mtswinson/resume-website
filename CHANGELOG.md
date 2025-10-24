@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.4] – 2025-09-30
+
+### Changed
+
+### Added
+
+### Removed
+
+### Fixed
+
+[PR #5](https://github.com/mtswinson/resume-website/pull/5) - 2025-10-24
+
+- Upgraded `reviews.html` to `v1.0.3`
+  - Fixed spelling error
+
 ## [1.0.3] - 2025-10-01
 
 ### Changed
@@ -125,8 +140,3 @@
 ### Removed
 
 ### Fixed
-
-[PR #5](https://github.com/mtswinson/resume-website/pull/5) - 2025-10-24
-
-- Upgraded `reviews.html` to `v1.0.3`
-  - Fixed spelling error
